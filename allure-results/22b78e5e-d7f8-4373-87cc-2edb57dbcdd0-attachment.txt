@@ -1,0 +1,1 @@
+Name: playwright, EmailID: playwright@gmail.com, Age: 26, skills: JavaScript,Python,Node.js, DOB:05-09-2001 

@@ -8,7 +8,10 @@
     "dev": "concurrently \"npm run react-dev\" \"wait-on http://localhost:3000 && electron .\"",
     "react-dev": "react-scripts start",
     "build": "react-scripts build",
-    "pack": "electron-builder"
+    "pack": "electron-builder",
+    "regression": "npx playwright test --grep @regression",
+    "positive": "npx playwright test --grep @positive",
+    "negative": "npx playwright test --grep @negative"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -21,6 +24,10 @@
     "sqlite3": "^5.1.6"
   },
   "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.3.3",
     "concurrently": "^8.2.2",
     "electron": "^27.1.3",
     "electron-builder": "^24.6.4",

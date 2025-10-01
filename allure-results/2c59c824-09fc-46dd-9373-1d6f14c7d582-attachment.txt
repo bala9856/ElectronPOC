@@ -1,0 +1,2 @@
+Name: playwright, EmailID: playwright@gmail.com, Age: 26, skills: JavaScript,Python,Node.js, DOB:05-09-2001 
+Video saved at: F:\ElectronApplication\test-results\electron-User-Managment-newUpdate-with-all-fields-chromium\videos\9a1b15b4c36d8fd05b0f92950baf5157.webm
