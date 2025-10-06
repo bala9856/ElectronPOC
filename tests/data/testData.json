@@ -1,28 +1,24 @@
 {
-    "userplayWright":
-    {
-        "username": "playwright",
-        "Email": "playwright@gmail.com",
-        "Age": "26",
-        "NewName":"UpdatedNames",
-        "Agengv":"somestring",
-        "Category":"Admin",
-        "skills":["JavaScript","Python","Node.js"],
-        "image":"C:/Users/divya.panta/Pictures/Screenshots/caty.png",
-        "gender":"Male",
-        "DOB": "05-09-2001",
-        "command":"test for luminometer as parth of POC"
-    },
-    
-    "userDuck" : 
-    {
-        "username": "cat",
-        "Email": "cutycatty@gmail.com",
-        "Age": "12",
-        "Category":"user",
-        "skills":["JavaScript","Python","Node.js"],
-        "image":[],
-        "DOB":"C:/Users/divya.panta/Pictures/Screenshots.caty.png"
-    }
+  "userplayWright": {
+    "username": "playwright",
+    "Email": "playwright@gmail.com",
+    "Age": "26",
+    "NewName": "UpdatedNames",
+    "Agengv": "somestring",
+    "Category": "Admin",
+    "skills": ["JavaScript", "Python", "Node.js"],
+    "image": "C:/Users/divya.panta/Pictures/Screenshots/caty.png",
+    "gender": "Male",
+    "DOB": "05-09-2001",
+    "command": "test for luminometer as parth of POC"
+  },
+  "userDuck": {
+    "username": "cat",
+    "Email": "cutycatty@gmail.com",
+    "Age": "12",
+    "Category": "user",
+    "skills": ["JavaScript", "Python", "Node.js"],
+    "image": [],
+    "DOB": "C:/Users/divya.panta/Pictures/Screenshots.caty.png"
+  }
 }
-
