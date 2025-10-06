@@ -42,6 +42,7 @@
 ## System Components
 
 ### 1. **Frontend Layer**
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    PRESENTATION TIER                        │
@@ -61,6 +62,7 @@
 ```
 
 ### 2. **Application Layer**
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    APPLICATION TIER                         │
@@ -81,6 +83,7 @@
 ```
 
 ### 3. **Data Layer**
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                      DATA TIER                              │
@@ -224,26 +227,31 @@
 ## Key Design Principles
 
 ### **1. Separation of Concerns**
+
 - UI logic separated from business logic
 - Database operations isolated in service layer
 - Device communication abstracted
 
 ### **2. Security First**
+
 - Context isolation for renderer process
 - Controlled API exposure via preload script
 - Input validation at all boundaries
 
 ### **3. Modularity**
+
 - Component-based UI architecture
 - Service-oriented backend design
 - Plugin-ready device interface
 
 ### **4. Scalability**
+
 - Async operations for device communication
 - Efficient data handling with SQLite
 - Memory-conscious React components
 
 ### **5. Maintainability**
+
 - Clear module boundaries
 - Consistent error handling
 - Comprehensive logging

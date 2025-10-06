@@ -1,1 +1,250 @@
-{"uuid":"7f2a8568-d93d-42c5-9961-c15ca89b28a2","name":"newUpdate with all fields","historyId":"7e060eb9e66e8c523c68c1247e235a22:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"broken","statusDetails":{"message":"Test timeout of 30000ms exceeded.","trace":"Test timeout of 30000ms exceeded."},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch electron","start":1756723585262,"uuid":"f304ed83-e105-4e35-a47d-167b37d34a94","stop":1756723586574}],"attachments":[],"parameters":[],"name":"Fixture \"electronApp\"","start":1756723585247,"uuid":"4cb7e23c-4513-4515-9a70-a4639f77085b","stop":1756723586575},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1756723591644,"uuid":"558720db-f79a-416f-b8c0-17c68fd50763","stop":1756723591657}],"attachments":[],"parameters":[],"name":"Fixture \"mainWindow\"","start":1756723586575,"uuid":"3c171150-8d0d-45f4-aa5c-0be77bcaedb5","stop":1756723591760}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1756723585219,"uuid":"4401c770-64ca-47ac-8bf3-b9a2b59db7d9","stop":1756723591761},{"status":"failed","statusDetails":{"message":"Error: locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')\n","trace":"Error: locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')\n\n    at HomePage.clickAddbutton (F:\\ElectronApplication\\tests\\electronPages\\HomePage.ts:131:31)\n    at F:\\ElectronApplication\\tests\\electron.spec.ts:108:20"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756723591803,"name":"Click locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')","uuid":"303978b2-43cb-4b59-91c9-f71221e3f42f","stop":1756723615471},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"newUpdate with all fields","source":"517854f2-bc81-444e-9806-30e3ea8b8376-attachment.png","type":"image/png"}],"parameters":[],"start":1756723621853,"name":"newUpdate with all fields","stop":1756723621853},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"newUpdate with all fields Video","source":"5c429d5f-cbc7-4f43-aee3-8e81d24076d8-attachment.webm","type":"video/webm"}],"parameters":[],"start":1756723621858,"name":"newUpdate with all fields Video","stop":1756723621858},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"trace","source":"749acb6a-3755-40d7-baab-e70153925aea-attachment.zip","type":"application/vnd.allure.playwright-trace"}],"parameters":[],"start":1756723621866,"name":"trace","stop":1756723621866},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Screenshot","start":1756723615259,"uuid":"118ba7c5-24c3-4cf3-aff1-de91712dae33","stop":1756723615438},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Attach \"newUpdate with all fields\"","start":1756723615440,"uuid":"1ac19360-ef69-4d2b-952e-597726bee36e","stop":1756723615440},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1756723615447,"uuid":"08a6f4c4-b887-4bfb-8d7a-c9ae7c6a31c3","stop":1756723615462},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Attach \"newUpdate with all fields Video\"","start":1756723621488,"uuid":"6bfa22db-9617-4aba-95ec-c76ff8be2736","stop":1756723621488}],"attachments":[],"parameters":[],"name":"Fixture \"mainWindow\"","start":1756723615252,"uuid":"307d901e-a0e1-4e81-a614-e15eb114886a","stop":1756723621503},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"electronApp\"","start":1756723621504,"uuid":"da6d01f6-6ad9-4b43-af80-a7928842ebc8","stop":1756723621504}],"attachments":[],"parameters":[],"name":"After Hooks","start":1756723615249,"uuid":"f46e0636-da60-4a70-94a2-274027f57535","stop":1756723621509}],"attachments":[{"name":"stdout","source":"48d0bd48-545d-4639-8d65-28b412b2a220-attachment.txt","type":"text/plain"}],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"electron.spec.ts"},{"name":"titlePath","value":" > chromium > electron.spec.ts > User Managment"},{"name":"tag","value":"positive"},{"name":"tag","value":"regression"},{"name":"host","value":"YB1102651LT"},{"name":"thread","value":"pid-10708-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"electron.spec.ts"},{"name":"subSuite","value":"User Managment"}],"links":[],"start":1756723585221,"testCaseId":"7e060eb9e66e8c523c68c1247e235a22","fullName":"electron.spec.ts:98:8","titlePath":["electron.spec.ts","User Managment"],"stop":1756723621476}
+{
+  "uuid": "7f2a8568-d93d-42c5-9961-c15ca89b28a2",
+  "name": "newUpdate with all fields",
+  "historyId": "7e060eb9e66e8c523c68c1247e235a22:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded.",
+    "trace": "Test timeout of 30000ms exceeded."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch electron",
+              "start": 1756723585262,
+              "uuid": "f304ed83-e105-4e35-a47d-167b37d34a94",
+              "stop": 1756723586574
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"electronApp\"",
+          "start": 1756723585247,
+          "uuid": "4cb7e23c-4513-4515-9a70-a4639f77085b",
+          "stop": 1756723586575
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1756723591644,
+              "uuid": "558720db-f79a-416f-b8c0-17c68fd50763",
+              "stop": 1756723591657
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainWindow\"",
+          "start": 1756723586575,
+          "uuid": "3c171150-8d0d-45f4-aa5c-0be77bcaedb5",
+          "stop": 1756723591760
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1756723585219,
+      "uuid": "4401c770-64ca-47ac-8bf3-b9a2b59db7d9",
+      "stop": 1756723591761
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')\n",
+        "trace": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')\n\n    at HomePage.clickAddbutton (F:\\ElectronApplication\\tests\\electronPages\\HomePage.ts:131:31)\n    at F:\\ElectronApplication\\tests\\electron.spec.ts:108:20"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756723591803,
+      "name": "Click locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')",
+      "uuid": "303978b2-43cb-4b59-91c9-f71221e3f42f",
+      "stop": 1756723615471
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "newUpdate with all fields",
+          "source": "517854f2-bc81-444e-9806-30e3ea8b8376-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1756723621853,
+      "name": "newUpdate with all fields",
+      "stop": 1756723621853
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "newUpdate with all fields Video",
+          "source": "5c429d5f-cbc7-4f43-aee3-8e81d24076d8-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1756723621858,
+      "name": "newUpdate with all fields Video",
+      "stop": 1756723621858
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "749acb6a-3755-40d7-baab-e70153925aea-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1756723621866,
+      "name": "trace",
+      "stop": 1756723621866
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Screenshot",
+              "start": 1756723615259,
+              "uuid": "118ba7c5-24c3-4cf3-aff1-de91712dae33",
+              "stop": 1756723615438
+            },
+            {
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Attach \"newUpdate with all fields\"",
+              "start": 1756723615440,
+              "uuid": "1ac19360-ef69-4d2b-952e-597726bee36e",
+              "stop": 1756723615440
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1756723615447,
+              "uuid": "08a6f4c4-b887-4bfb-8d7a-c9ae7c6a31c3",
+              "stop": 1756723615462
+            },
+            {
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Attach \"newUpdate with all fields Video\"",
+              "start": 1756723621488,
+              "uuid": "6bfa22db-9617-4aba-95ec-c76ff8be2736",
+              "stop": 1756723621488
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainWindow\"",
+          "start": 1756723615252,
+          "uuid": "307d901e-a0e1-4e81-a614-e15eb114886a",
+          "stop": 1756723621503
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"electronApp\"",
+          "start": 1756723621504,
+          "uuid": "da6d01f6-6ad9-4b43-af80-a7928842ebc8",
+          "stop": 1756723621504
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1756723615249,
+      "uuid": "f46e0636-da60-4a70-94a2-274027f57535",
+      "stop": 1756723621509
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "48d0bd48-545d-4639-8d65-28b412b2a220-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "electron.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > electron.spec.ts > User Managment" },
+    { "name": "tag", "value": "positive" },
+    { "name": "tag", "value": "regression" },
+    { "name": "host", "value": "YB1102651LT" },
+    { "name": "thread", "value": "pid-10708-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "electron.spec.ts" },
+    { "name": "subSuite", "value": "User Managment" }
+  ],
+  "links": [],
+  "start": 1756723585221,
+  "testCaseId": "7e060eb9e66e8c523c68c1247e235a22",
+  "fullName": "electron.spec.ts:98:8",
+  "titlePath": ["electron.spec.ts", "User Managment"],
+  "stop": 1756723621476
+}

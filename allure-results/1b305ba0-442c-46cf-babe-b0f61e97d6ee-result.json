@@ -1,1 +1,443 @@
-{"uuid":"1b305ba0-442c-46cf-babe-b0f61e97d6ee","name":"newUpdate with all fields","historyId":"7e060eb9e66e8c523c68c1247e235a22:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: page.screenshot: Target page, context or browser has been closed","trace":"Error: page.screenshot: Target page, context or browser has been closed\n    at Object.mainWindow (F:\\ElectronApplication\\tests\\fixtures\\launchFixture.ts:47:40)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch electron","start":1756713186820,"uuid":"275398a7-1310-46d8-a053-d7a52b94a22b","stop":1756713187494}],"attachments":[],"parameters":[],"name":"Fixture \"electronApp\"","start":1756713186806,"uuid":"5e951bf0-0bdc-48bd-abe7-6ebfe2ef5d08","stop":1756713187495},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1756713193485,"uuid":"84e4c353-f34e-4f7e-adb7-2c55da5f6f60","stop":1756713193522}],"attachments":[],"parameters":[],"name":"Fixture \"mainWindow\"","start":1756713187496,"uuid":"0d4d349e-b013-492f-b91c-fb601e50c158","stop":1756713193586}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1756713186782,"uuid":"b8520536-70a6-4586-aefc-5530aacf7811","stop":1756713193586},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713193649,"name":"Click locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')","uuid":"83fb33ac-dcfe-45c3-bc1a-1894cda8fdd2","stop":1756713194418},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713196429,"name":"Fill \"playwright\" locator('//input[@type=\\'text\\']')","uuid":"d25c9cd9-70d0-4985-8ecf-04ec3405bab7","stop":1756713196522},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713197545,"name":"Fill \"playwright@gmail.com\" locator('//input[@type=\\'email\\']')","uuid":"ba84c6ea-5867-44d9-80ff-604ea79f1935","stop":1756713197660},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713197673,"name":"Fill \"26\" locator('//input[@type=\\'number\\']')","uuid":"44a7d3e8-b94e-41ec-bf0d-be2f558605e2","stop":1756713197816},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713197824,"name":"Expect \"toBeChecked\"","uuid":"61c538b0-8b26-4e46-aabf-827c02283e9d","stop":1756713197857},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713197861,"name":"Uncheck locator('//input[@type=\\'checkbox\\']')","uuid":"286b40bc-388c-4581-910a-da69952a9bdf","stop":1756713198002},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713198005,"name":"Expect \"not toBeChecked\"","uuid":"61230d6b-51fa-43b4-88e4-2cd82ca67512","stop":1756713198019},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713198022,"name":"Check locator('//input[@type=\\'checkbox\\']')","uuid":"81012597-5c68-48ab-8608-d7bf9aa71657","stop":1756713198099},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713198104,"name":"Click locator('//div[@aria-controls=\\':r5:\\']')","uuid":"e6486544-1434-43cb-9095-ca4d8472a08e","stop":1756713198199},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713198202,"name":"Click locator('//li[@data-value=\\'Admin\\']')","uuid":"3dc4cffd-ef90-4c59-8f61-cd6f75cf77f3","stop":1756713198580},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713198583,"name":"Click locator('//div[@aria-controls=\\':r6:\\']/parent::div')","uuid":"5fdee42a-50a9-4aec-8260-add05458c4de","stop":1756713198978},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713198982,"name":"Click locator('//ul//li[@data-value=\\'JavaScript\\']')","uuid":"ca3300cd-13bc-42d7-8de5-c1913df97fc3","stop":1756713199072},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713199074,"name":"Click locator('//ul//li[@data-value=\\'Python\\']')","uuid":"7ba4ac33-d3c1-4aee-8303-5834d47a09f7","stop":1756713199168},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713199170,"name":"Click locator('//ul//li[@data-value=\\'Node.js\\']')","uuid":"9accbb03-b7d7-4706-aa6a-add3eb3c33ff","stop":1756713199243},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713199284,"name":"Press \"Escape\"","uuid":"4c156073-84ac-4d91-987e-046ecb22fb8d","stop":1756713199325},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713199328,"name":"Set input files locator('//input[@type=\\'file\\']')","uuid":"ec691f19-777e-4cb2-9052-937491c29a6e","stop":1756713199358},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713199360,"name":"Click locator('//input[(@type=\\'radio\\')and(@value=\\'Male\\')]')","uuid":"310ccb0c-feb5-49d3-a6ef-0d4828c1047c","stop":1756713199719},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713199725,"name":"Clear locator('//input[@type=\\'date\\']')","uuid":"258b3274-471c-49d7-8680-d3a7c8d2eebb","stop":1756713199758},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713199760,"name":"Type \"01-09-2025\" locator('//input[@type=\\'date\\']')","uuid":"10f5ccb9-023a-4659-b4a7-3d6eac29945d","stop":1756713200168},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756713202175,"name":"Click locator('//button[text()=\\'Create\\']')","uuid":"a103212c-a41c-42b2-b791-71f6855f2c9e","stop":1756713202216},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"trace","source":"ed144a87-23f3-47f0-9f80-52745a66dd45-attachment.zip","type":"application/vnd.allure.playwright-trace"}],"parameters":[],"start":1756713205912,"name":"trace","stop":1756713205912},{"status":"failed","statusDetails":{"message":"Error: page.screenshot: Target page, context or browser has been closed","trace":"Error: page.screenshot: Target page, context or browser has been closed\n    at Object.mainWindow (F:\\ElectronApplication\\tests\\fixtures\\launchFixture.ts:47:40)"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"Error: page.screenshot: Target page, context or browser has been closed","trace":"Error: page.screenshot: Target page, context or browser has been closed\n    at Object.mainWindow (F:\\ElectronApplication\\tests\\fixtures\\launchFixture.ts:47:40)"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1756713204230,"uuid":"572a3951-b5c3-4f06-99ff-21a35b071a23","stop":1756713204239},{"status":"failed","statusDetails":{"message":"Error: page.screenshot: Target page, context or browser has been closed","trace":"Error: page.screenshot: Target page, context or browser has been closed\n    at Object.mainWindow (F:\\ElectronApplication\\tests\\fixtures\\launchFixture.ts:47:40)"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Screenshot","start":1756713204241,"uuid":"b057a3be-23f2-4145-8355-62b00df16674","stop":1756713204249}],"attachments":[],"parameters":[],"name":"Fixture \"mainWindow\"","start":1756713204229,"uuid":"6f5ac0bb-6fdf-4a2e-9b0d-04575b9a16c3","stop":1756713204250},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1756713204316,"uuid":"2765ab20-0a35-4640-8c3b-1ea102444985","stop":1756713205847}],"attachments":[],"parameters":[],"name":"Fixture \"electronApp\"","start":1756713204251,"uuid":"0d4c8f6d-2edd-4363-b6bf-216267692f0a","stop":1756713205847}],"attachments":[],"parameters":[],"name":"After Hooks","start":1756713204227,"uuid":"313a621e-a971-46d8-bf6a-f35f49d841e5","stop":1756713205852}],"attachments":[{"name":"stdout","source":"a4cd8332-8e65-4b8d-945c-ce0676e923ac-attachment.txt","type":"text/plain"}],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"electron.spec.ts"},{"name":"titlePath","value":" > chromium > electron.spec.ts > User Managment"},{"name":"tag","value":"positive"},{"name":"tag","value":"regression"},{"name":"host","value":"YB1102651LT"},{"name":"thread","value":"pid-20644-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"electron.spec.ts"},{"name":"subSuite","value":"User Managment"}],"links":[],"start":1756713186789,"testCaseId":"7e060eb9e66e8c523c68c1247e235a22","fullName":"electron.spec.ts:98:8","titlePath":["electron.spec.ts","User Managment"],"stop":1756713205832}
+{
+  "uuid": "1b305ba0-442c-46cf-babe-b0f61e97d6ee",
+  "name": "newUpdate with all fields",
+  "historyId": "7e060eb9e66e8c523c68c1247e235a22:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.screenshot: Target page, context or browser has been closed",
+    "trace": "Error: page.screenshot: Target page, context or browser has been closed\n    at Object.mainWindow (F:\\ElectronApplication\\tests\\fixtures\\launchFixture.ts:47:40)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch electron",
+              "start": 1756713186820,
+              "uuid": "275398a7-1310-46d8-a053-d7a52b94a22b",
+              "stop": 1756713187494
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"electronApp\"",
+          "start": 1756713186806,
+          "uuid": "5e951bf0-0bdc-48bd-abe7-6ebfe2ef5d08",
+          "stop": 1756713187495
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1756713193485,
+              "uuid": "84e4c353-f34e-4f7e-adb7-2c55da5f6f60",
+              "stop": 1756713193522
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainWindow\"",
+          "start": 1756713187496,
+          "uuid": "0d4d349e-b013-492f-b91c-fb601e50c158",
+          "stop": 1756713193586
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1756713186782,
+      "uuid": "b8520536-70a6-4586-aefc-5530aacf7811",
+      "stop": 1756713193586
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713193649,
+      "name": "Click locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')",
+      "uuid": "83fb33ac-dcfe-45c3-bc1a-1894cda8fdd2",
+      "stop": 1756713194418
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713196429,
+      "name": "Fill \"playwright\" locator('//input[@type=\\'text\\']')",
+      "uuid": "d25c9cd9-70d0-4985-8ecf-04ec3405bab7",
+      "stop": 1756713196522
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713197545,
+      "name": "Fill \"playwright@gmail.com\" locator('//input[@type=\\'email\\']')",
+      "uuid": "ba84c6ea-5867-44d9-80ff-604ea79f1935",
+      "stop": 1756713197660
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713197673,
+      "name": "Fill \"26\" locator('//input[@type=\\'number\\']')",
+      "uuid": "44a7d3e8-b94e-41ec-bf0d-be2f558605e2",
+      "stop": 1756713197816
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713197824,
+      "name": "Expect \"toBeChecked\"",
+      "uuid": "61c538b0-8b26-4e46-aabf-827c02283e9d",
+      "stop": 1756713197857
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713197861,
+      "name": "Uncheck locator('//input[@type=\\'checkbox\\']')",
+      "uuid": "286b40bc-388c-4581-910a-da69952a9bdf",
+      "stop": 1756713198002
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713198005,
+      "name": "Expect \"not toBeChecked\"",
+      "uuid": "61230d6b-51fa-43b4-88e4-2cd82ca67512",
+      "stop": 1756713198019
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713198022,
+      "name": "Check locator('//input[@type=\\'checkbox\\']')",
+      "uuid": "81012597-5c68-48ab-8608-d7bf9aa71657",
+      "stop": 1756713198099
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713198104,
+      "name": "Click locator('//div[@aria-controls=\\':r5:\\']')",
+      "uuid": "e6486544-1434-43cb-9095-ca4d8472a08e",
+      "stop": 1756713198199
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713198202,
+      "name": "Click locator('//li[@data-value=\\'Admin\\']')",
+      "uuid": "3dc4cffd-ef90-4c59-8f61-cd6f75cf77f3",
+      "stop": 1756713198580
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713198583,
+      "name": "Click locator('//div[@aria-controls=\\':r6:\\']/parent::div')",
+      "uuid": "5fdee42a-50a9-4aec-8260-add05458c4de",
+      "stop": 1756713198978
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713198982,
+      "name": "Click locator('//ul//li[@data-value=\\'JavaScript\\']')",
+      "uuid": "ca3300cd-13bc-42d7-8de5-c1913df97fc3",
+      "stop": 1756713199072
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713199074,
+      "name": "Click locator('//ul//li[@data-value=\\'Python\\']')",
+      "uuid": "7ba4ac33-d3c1-4aee-8303-5834d47a09f7",
+      "stop": 1756713199168
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713199170,
+      "name": "Click locator('//ul//li[@data-value=\\'Node.js\\']')",
+      "uuid": "9accbb03-b7d7-4706-aa6a-add3eb3c33ff",
+      "stop": 1756713199243
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713199284,
+      "name": "Press \"Escape\"",
+      "uuid": "4c156073-84ac-4d91-987e-046ecb22fb8d",
+      "stop": 1756713199325
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713199328,
+      "name": "Set input files locator('//input[@type=\\'file\\']')",
+      "uuid": "ec691f19-777e-4cb2-9052-937491c29a6e",
+      "stop": 1756713199358
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713199360,
+      "name": "Click locator('//input[(@type=\\'radio\\')and(@value=\\'Male\\')]')",
+      "uuid": "310ccb0c-feb5-49d3-a6ef-0d4828c1047c",
+      "stop": 1756713199719
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713199725,
+      "name": "Clear locator('//input[@type=\\'date\\']')",
+      "uuid": "258b3274-471c-49d7-8680-d3a7c8d2eebb",
+      "stop": 1756713199758
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713199760,
+      "name": "Type \"01-09-2025\" locator('//input[@type=\\'date\\']')",
+      "uuid": "10f5ccb9-023a-4659-b4a7-3d6eac29945d",
+      "stop": 1756713200168
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756713202175,
+      "name": "Click locator('//button[text()=\\'Create\\']')",
+      "uuid": "a103212c-a41c-42b2-b791-71f6855f2c9e",
+      "stop": 1756713202216
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "ed144a87-23f3-47f0-9f80-52745a66dd45-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1756713205912,
+      "name": "trace",
+      "stop": 1756713205912
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.screenshot: Target page, context or browser has been closed",
+        "trace": "Error: page.screenshot: Target page, context or browser has been closed\n    at Object.mainWindow (F:\\ElectronApplication\\tests\\fixtures\\launchFixture.ts:47:40)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: page.screenshot: Target page, context or browser has been closed",
+            "trace": "Error: page.screenshot: Target page, context or browser has been closed\n    at Object.mainWindow (F:\\ElectronApplication\\tests\\fixtures\\launchFixture.ts:47:40)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1756713204230,
+              "uuid": "572a3951-b5c3-4f06-99ff-21a35b071a23",
+              "stop": 1756713204239
+            },
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Error: page.screenshot: Target page, context or browser has been closed",
+                "trace": "Error: page.screenshot: Target page, context or browser has been closed\n    at Object.mainWindow (F:\\ElectronApplication\\tests\\fixtures\\launchFixture.ts:47:40)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Screenshot",
+              "start": 1756713204241,
+              "uuid": "b057a3be-23f2-4145-8355-62b00df16674",
+              "stop": 1756713204249
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainWindow\"",
+          "start": 1756713204229,
+          "uuid": "6f5ac0bb-6fdf-4a2e-9b0d-04575b9a16c3",
+          "stop": 1756713204250
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1756713204316,
+              "uuid": "2765ab20-0a35-4640-8c3b-1ea102444985",
+              "stop": 1756713205847
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"electronApp\"",
+          "start": 1756713204251,
+          "uuid": "0d4c8f6d-2edd-4363-b6bf-216267692f0a",
+          "stop": 1756713205847
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1756713204227,
+      "uuid": "313a621e-a971-46d8-bf6a-f35f49d841e5",
+      "stop": 1756713205852
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "a4cd8332-8e65-4b8d-945c-ce0676e923ac-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "electron.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > electron.spec.ts > User Managment" },
+    { "name": "tag", "value": "positive" },
+    { "name": "tag", "value": "regression" },
+    { "name": "host", "value": "YB1102651LT" },
+    { "name": "thread", "value": "pid-20644-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "electron.spec.ts" },
+    { "name": "subSuite", "value": "User Managment" }
+  ],
+  "links": [],
+  "start": 1756713186789,
+  "testCaseId": "7e060eb9e66e8c523c68c1247e235a22",
+  "fullName": "electron.spec.ts:98:8",
+  "titlePath": ["electron.spec.ts", "User Managment"],
+  "stop": 1756713205832
+}

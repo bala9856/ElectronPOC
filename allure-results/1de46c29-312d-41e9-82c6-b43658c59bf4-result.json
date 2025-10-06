@@ -1,1 +1,435 @@
-{"uuid":"1de46c29-312d-41e9-82c6-b43658c59bf4","name":"newUpdate with all fields","historyId":"7e060eb9e66e8c523c68c1247e235a22:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch electron","start":1756711426345,"uuid":"311f91d3-d537-49fc-a8f4-9f921b3ef0a6","stop":1756711427212}],"attachments":[],"parameters":[],"name":"Fixture \"electronApp\"","start":1756711426331,"uuid":"222ce16c-b095-4ccd-9223-e990dbba3ed0","stop":1756711427213},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close page","start":1756711433894,"uuid":"0dcf9859-497c-4a5c-b83e-4a7c34140286","stop":1756711433921}],"attachments":[],"parameters":[],"name":"Fixture \"mainWindow\"","start":1756711427213,"uuid":"4228afb5-5d74-4367-a8bb-6d3f6ac94249","stop":1756711434049}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1756711426307,"uuid":"4fc4791f-168f-40bd-95cc-1d23fd70618d","stop":1756711434049},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711434086,"name":"Click locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')","uuid":"10e4bb1b-1995-46fd-b741-48925415e56d","stop":1756711434751},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711436758,"name":"Fill \"playwright\" locator('//input[@type=\\'text\\']')","uuid":"159249e1-c62f-4e5b-8a67-2905f3b0d501","stop":1756711436891},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711437905,"name":"Fill \"playwright@gmail.com\" locator('//input[@type=\\'email\\']')","uuid":"84667b4e-a52b-4a34-baa7-32ca2b53435e","stop":1756711438004},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711438007,"name":"Fill \"26\" locator('//input[@type=\\'number\\']')","uuid":"491957c4-526d-4d8b-8ac1-e4f8db0d46c0","stop":1756711438132},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711438143,"name":"Expect \"toBeChecked\"","uuid":"5346d16a-2a4a-4e16-b938-ed3ec0a60049","stop":1756711438182},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711438185,"name":"Uncheck locator('//input[@type=\\'checkbox\\']')","uuid":"8729f434-50b8-4a46-b0f2-e12670fed33f","stop":1756711438407},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711438410,"name":"Expect \"not toBeChecked\"","uuid":"7ffbfb47-a6ad-4d39-970d-0e22d4bebe21","stop":1756711438420},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711438424,"name":"Check locator('//input[@type=\\'checkbox\\']')","uuid":"55780f5b-9d17-42fd-96e2-b8f9b0de7e36","stop":1756711438581},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711438585,"name":"Click locator('//div[@aria-controls=\\':r5:\\']')","uuid":"23f9d3e9-6c57-40c9-9380-9e28660cab60","stop":1756711438760},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711438763,"name":"Click locator('//li[@data-value=\\'Admin\\']')","uuid":"7ec51f9b-2e58-445f-a45a-8205a75d46bb","stop":1756711439302},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711439306,"name":"Click locator('//div[@aria-controls=\\':r6:\\']/parent::div')","uuid":"cebd1dae-f448-4b7e-8ec3-5a1974fb4a0a","stop":1756711439670},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711439673,"name":"Click locator('//ul//li[@data-value=\\'JavaScript\\']')","uuid":"6d05ca77-6a6b-4b30-ae39-e4390b4d1280","stop":1756711439846},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711439848,"name":"Click locator('//ul//li[@data-value=\\'Python\\']')","uuid":"6900cd19-2dc6-431f-a1be-f89c05aa34f9","stop":1756711440015},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711440017,"name":"Click locator('//ul//li[@data-value=\\'Node.js\\']')","uuid":"5ae4c835-8862-4163-9f71-55e4cef604ae","stop":1756711440221},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711440226,"name":"Press \"Escape\"","uuid":"d1335cad-db2b-4f82-9401-f5b9a2e0af98","stop":1756711440253},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711440260,"name":"Set input files locator('//input[@type=\\'file\\']')","uuid":"9bd53f89-9bf8-4925-80fd-7d97490f277c","stop":1756711440295},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711440298,"name":"Click locator('//input[(@type=\\'radio\\')and(@value=\\'Male\\')]')","uuid":"e55d5654-7264-43e0-8230-0da5a7a2e83d","stop":1756711440741},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711440747,"name":"Clear locator('//input[@type=\\'date\\']')","uuid":"de00ba5c-2292-4f73-8f4e-bc3badcc39eb","stop":1756711440774},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711440777,"name":"Type \"01-09-2025\" locator('//input[@type=\\'date\\']')","uuid":"8f977d75-8553-4950-a529-3a4a69285ae8","stop":1756711441264},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1756711443279,"name":"Click locator('//button[text()=\\'Create\\']')","uuid":"a21bbce9-bca3-42ab-828c-f413e4ee0036","stop":1756711443356},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"586a0a06-1096-4fbf-a6af-80097516a5d4-attachment.png","type":"image/png"}],"parameters":[],"start":1756711447342,"name":"screenshot","stop":1756711447342},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"trace","source":"bdea3b12-bc48-44de-9d31-f0f81900a8c0-attachment.zip","type":"application/vnd.allure.playwright-trace"}],"parameters":[],"start":1756711447355,"name":"trace","stop":1756711447356},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Screenshot","start":1756711445375,"uuid":"a5499651-8c98-4bd3-8ac6-fb05f178fddb","stop":1756711445593}],"attachments":[],"parameters":[],"name":"Fixture \"mainWindow\"","start":1756711445372,"uuid":"5bcf4952-3c9b-4fc1-ab36-9a8de0d49049","stop":1756711445593},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1756711445788,"uuid":"19579c2e-60bc-41cd-ad6b-6cdbae053ee7","stop":1756711447260}],"attachments":[],"parameters":[],"name":"Fixture \"electronApp\"","start":1756711445593,"uuid":"55800132-56a1-435b-85dd-dbd80c48578c","stop":1756711447260}],"attachments":[],"parameters":[],"name":"After Hooks","start":1756711445370,"uuid":"92901eab-d87a-4262-a2bb-45e0b78fb431","stop":1756711447276}],"attachments":[{"name":"stdout","source":"87e67a14-16aa-4bcf-be6e-cbb1f9f6ae02-attachment.txt","type":"text/plain"}],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"electron.spec.ts"},{"name":"titlePath","value":" > chromium > electron.spec.ts > User Managment"},{"name":"tag","value":"positive"},{"name":"tag","value":"regression"},{"name":"host","value":"YB1102651LT"},{"name":"thread","value":"pid-7144-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"electron.spec.ts"},{"name":"subSuite","value":"User Managment"}],"links":[],"start":1756711426324,"testCaseId":"7e060eb9e66e8c523c68c1247e235a22","fullName":"electron.spec.ts:98:8","titlePath":["electron.spec.ts","User Managment"],"stop":1756711447255}
+{
+  "uuid": "1de46c29-312d-41e9-82c6-b43658c59bf4",
+  "name": "newUpdate with all fields",
+  "historyId": "7e060eb9e66e8c523c68c1247e235a22:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch electron",
+              "start": 1756711426345,
+              "uuid": "311f91d3-d537-49fc-a8f4-9f921b3ef0a6",
+              "stop": 1756711427212
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"electronApp\"",
+          "start": 1756711426331,
+          "uuid": "222ce16c-b095-4ccd-9223-e990dbba3ed0",
+          "stop": 1756711427213
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close page",
+              "start": 1756711433894,
+              "uuid": "0dcf9859-497c-4a5c-b83e-4a7c34140286",
+              "stop": 1756711433921
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainWindow\"",
+          "start": 1756711427213,
+          "uuid": "4228afb5-5d74-4367-a8bb-6d3f6ac94249",
+          "stop": 1756711434049
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1756711426307,
+      "uuid": "4fc4791f-168f-40bd-95cc-1d23fd70618d",
+      "stop": 1756711434049
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711434086,
+      "name": "Click locator('//button[@type=\"button\" and contains(text(),\"Add User\")]')",
+      "uuid": "10e4bb1b-1995-46fd-b741-48925415e56d",
+      "stop": 1756711434751
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711436758,
+      "name": "Fill \"playwright\" locator('//input[@type=\\'text\\']')",
+      "uuid": "159249e1-c62f-4e5b-8a67-2905f3b0d501",
+      "stop": 1756711436891
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711437905,
+      "name": "Fill \"playwright@gmail.com\" locator('//input[@type=\\'email\\']')",
+      "uuid": "84667b4e-a52b-4a34-baa7-32ca2b53435e",
+      "stop": 1756711438004
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711438007,
+      "name": "Fill \"26\" locator('//input[@type=\\'number\\']')",
+      "uuid": "491957c4-526d-4d8b-8ac1-e4f8db0d46c0",
+      "stop": 1756711438132
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711438143,
+      "name": "Expect \"toBeChecked\"",
+      "uuid": "5346d16a-2a4a-4e16-b938-ed3ec0a60049",
+      "stop": 1756711438182
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711438185,
+      "name": "Uncheck locator('//input[@type=\\'checkbox\\']')",
+      "uuid": "8729f434-50b8-4a46-b0f2-e12670fed33f",
+      "stop": 1756711438407
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711438410,
+      "name": "Expect \"not toBeChecked\"",
+      "uuid": "7ffbfb47-a6ad-4d39-970d-0e22d4bebe21",
+      "stop": 1756711438420
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711438424,
+      "name": "Check locator('//input[@type=\\'checkbox\\']')",
+      "uuid": "55780f5b-9d17-42fd-96e2-b8f9b0de7e36",
+      "stop": 1756711438581
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711438585,
+      "name": "Click locator('//div[@aria-controls=\\':r5:\\']')",
+      "uuid": "23f9d3e9-6c57-40c9-9380-9e28660cab60",
+      "stop": 1756711438760
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711438763,
+      "name": "Click locator('//li[@data-value=\\'Admin\\']')",
+      "uuid": "7ec51f9b-2e58-445f-a45a-8205a75d46bb",
+      "stop": 1756711439302
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711439306,
+      "name": "Click locator('//div[@aria-controls=\\':r6:\\']/parent::div')",
+      "uuid": "cebd1dae-f448-4b7e-8ec3-5a1974fb4a0a",
+      "stop": 1756711439670
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711439673,
+      "name": "Click locator('//ul//li[@data-value=\\'JavaScript\\']')",
+      "uuid": "6d05ca77-6a6b-4b30-ae39-e4390b4d1280",
+      "stop": 1756711439846
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711439848,
+      "name": "Click locator('//ul//li[@data-value=\\'Python\\']')",
+      "uuid": "6900cd19-2dc6-431f-a1be-f89c05aa34f9",
+      "stop": 1756711440015
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711440017,
+      "name": "Click locator('//ul//li[@data-value=\\'Node.js\\']')",
+      "uuid": "5ae4c835-8862-4163-9f71-55e4cef604ae",
+      "stop": 1756711440221
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711440226,
+      "name": "Press \"Escape\"",
+      "uuid": "d1335cad-db2b-4f82-9401-f5b9a2e0af98",
+      "stop": 1756711440253
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711440260,
+      "name": "Set input files locator('//input[@type=\\'file\\']')",
+      "uuid": "9bd53f89-9bf8-4925-80fd-7d97490f277c",
+      "stop": 1756711440295
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711440298,
+      "name": "Click locator('//input[(@type=\\'radio\\')and(@value=\\'Male\\')]')",
+      "uuid": "e55d5654-7264-43e0-8230-0da5a7a2e83d",
+      "stop": 1756711440741
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711440747,
+      "name": "Clear locator('//input[@type=\\'date\\']')",
+      "uuid": "de00ba5c-2292-4f73-8f4e-bc3badcc39eb",
+      "stop": 1756711440774
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711440777,
+      "name": "Type \"01-09-2025\" locator('//input[@type=\\'date\\']')",
+      "uuid": "8f977d75-8553-4950-a529-3a4a69285ae8",
+      "stop": 1756711441264
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756711443279,
+      "name": "Click locator('//button[text()=\\'Create\\']')",
+      "uuid": "a21bbce9-bca3-42ab-828c-f413e4ee0036",
+      "stop": 1756711443356
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "586a0a06-1096-4fbf-a6af-80097516a5d4-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1756711447342,
+      "name": "screenshot",
+      "stop": 1756711447342
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "bdea3b12-bc48-44de-9d31-f0f81900a8c0-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1756711447355,
+      "name": "trace",
+      "stop": 1756711447356
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Screenshot",
+              "start": 1756711445375,
+              "uuid": "a5499651-8c98-4bd3-8ac6-fb05f178fddb",
+              "stop": 1756711445593
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainWindow\"",
+          "start": 1756711445372,
+          "uuid": "5bcf4952-3c9b-4fc1-ab36-9a8de0d49049",
+          "stop": 1756711445593
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1756711445788,
+              "uuid": "19579c2e-60bc-41cd-ad6b-6cdbae053ee7",
+              "stop": 1756711447260
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"electronApp\"",
+          "start": 1756711445593,
+          "uuid": "55800132-56a1-435b-85dd-dbd80c48578c",
+          "stop": 1756711447260
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1756711445370,
+      "uuid": "92901eab-d87a-4262-a2bb-45e0b78fb431",
+      "stop": 1756711447276
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "87e67a14-16aa-4bcf-be6e-cbb1f9f6ae02-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "electron.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > electron.spec.ts > User Managment" },
+    { "name": "tag", "value": "positive" },
+    { "name": "tag", "value": "regression" },
+    { "name": "host", "value": "YB1102651LT" },
+    { "name": "thread", "value": "pid-7144-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "electron.spec.ts" },
+    { "name": "subSuite", "value": "User Managment" }
+  ],
+  "links": [],
+  "start": 1756711426324,
+  "testCaseId": "7e060eb9e66e8c523c68c1247e235a22",
+  "fullName": "electron.spec.ts:98:8",
+  "titlePath": ["electron.spec.ts", "User Managment"],
+  "stop": 1756711447255
+}

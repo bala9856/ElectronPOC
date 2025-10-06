@@ -1,19 +1,33 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
-  Container, Typography, Button, Paper, Box, TextField,
-  Card, CardContent, Grid, Alert, CircularProgress, List,
-  ListItem, ListItemText, ListItemButton, Chip, Divider
-} from '@mui/material';
-import { Usb, Send, Refresh, Cable, DataUsage } from '@mui/icons-material';
+  Container,
+  Typography,
+  Button,
+  Paper,
+  Box,
+  TextField,
+  Card,
+  CardContent,
+  Grid,
+  Alert,
+  CircularProgress,
+  List,
+  ListItem,
+  ListItemText,
+  ListItemButton,
+  Chip,
+  Divider,
+} from "@mui/material";
+import { Usb, Send, Refresh, Cable, DataUsage } from "@mui/icons-material";
 
 function USBDeviceScreen() {
   const [devices, setDevices] = useState([]);
   const [selectedDevice, setSelectedDevice] = useState(null);
   const [isConnected, setIsConnected] = useState(false);
-  const [transferData, setTransferData] = useState('');
-  const [receivedData, setReceivedData] = useState('');
+  const [transferData, setTransferData] = useState("");
+  const [receivedData, setReceivedData] = useState("");
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
 
   useEffect(() => {
     scanDevices();
@@ -24,9 +38,9 @@ function USBDeviceScreen() {
     try {
       const deviceList = await window.electronAPI.scanUSBDevices();
       setDevices(deviceList);
-      setError('');
+      setError("");
     } catch (err) {
-      setError('Failed to scan USB devices');
+      setError("Failed to scan USB devices");
     }
     setLoading(false);
   };
@@ -38,12 +52,12 @@ function USBDeviceScreen() {
       if (result.success) {
         setSelectedDevice(device);
         setIsConnected(true);
-        setError('');
+        setError("");
       } else {
         setError(result.error);
       }
     } catch (err) {
-      setError('Failed to connect to device');
+      setError("Failed to connect to device");
     }
     setLoading(false);
   };
@@ -53,26 +67,26 @@ function USBDeviceScreen() {
       await window.electronAPI.disconnectUSBDevice();
       setSelectedDevice(null);
       setIsConnected(false);
-      setReceivedData('');
+      setReceivedData("");
     } catch (err) {
-      setError('Failed to disconnect device');
+      setError("Failed to disconnect device");
     }
   };
 
   const sendData = async () => {
     if (!transferData.trim()) return;
-    
+
     setLoading(true);
     try {
       const result = await window.electronAPI.sendUSBData(transferData);
       if (result.success) {
-        setReceivedData(prev => prev + `Sent: ${transferData}\n`);
-        setTransferData('');
+        setReceivedData((prev) => prev + `Sent: ${transferData}\n`);
+        setTransferData("");
       } else {
         setError(result.error);
       }
     } catch (err) {
-      setError('Failed to send data');
+      setError("Failed to send data");
     }
     setLoading(false);
   };
@@ -82,10 +96,10 @@ function USBDeviceScreen() {
     try {
       const result = await window.electronAPI.readUSBData();
       if (result.success && result.data) {
-        setReceivedData(prev => prev + `Received: ${result.data}\n`);
+        setReceivedData((prev) => prev + `Received: ${result.data}\n`);
       }
     } catch (err) {
-      setError('Failed to read data');
+      setError("Failed to read data");
     }
     setLoading(false);
   };
@@ -108,9 +122,7 @@ function USBDeviceScreen() {
           <Card>
             <CardContent>
               <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
-                <Typography variant="h6">
-                  Available USB Devices
-                </Typography>
+                <Typography variant="h6">Available USB Devices</Typography>
                 <Button
                   variant="outlined"
                   startIcon={<Refresh />}
@@ -121,7 +133,7 @@ function USBDeviceScreen() {
                   Scan
                 </Button>
               </Box>
-              
+
               <List>
                 {devices.length === 0 ? (
                   <ListItem>
@@ -139,7 +151,7 @@ function USBDeviceScreen() {
                           <Usb sx={{ mr: 2 }} />
                           <Box flexGrow={1}>
                             <Typography variant="body1">
-                              {device.manufacturer || 'Unknown'} - {device.productId}
+                              {device.manufacturer || "Unknown"} - {device.productId}
                             </Typography>
                             <Typography variant="body2" color="textSecondary">
                               {device.path}
@@ -165,19 +177,12 @@ function USBDeviceScreen() {
               <Typography variant="h6" gutterBottom>
                 Connection Status
               </Typography>
-              
+
               <Box display="flex" alignItems="center" gap={2} mb={2}>
-                <Cable color={isConnected ? 'success' : 'error'} />
-                <Typography>
-                  {isConnected ? 'Connected' : 'Disconnected'}
-                </Typography>
+                <Cable color={isConnected ? "success" : "error"} />
+                <Typography>{isConnected ? "Connected" : "Disconnected"}</Typography>
                 {isConnected && (
-                  <Button
-                    variant="outlined"
-                    onClick={disconnectDevice}
-                    size="small"
-                    color="error"
-                  >
+                  <Button variant="outlined" onClick={disconnectDevice} size="small" color="error">
                     Disconnect
                   </Button>
                 )}
@@ -186,17 +191,11 @@ function USBDeviceScreen() {
               {selectedDevice && (
                 <Box>
                   <Typography variant="body2">
-                    Device: {selectedDevice.manufacturer || 'Unknown'}
+                    Device: {selectedDevice.manufacturer || "Unknown"}
                   </Typography>
-                  <Typography variant="body2">
-                    Product ID: {selectedDevice.productId}
-                  </Typography>
-                  <Typography variant="body2">
-                    Vendor ID: {selectedDevice.vendorId}
-                  </Typography>
-                  <Typography variant="body2">
-                    Path: {selectedDevice.path}
-                  </Typography>
+                  <Typography variant="body2">Product ID: {selectedDevice.productId}</Typography>
+                  <Typography variant="body2">Vendor ID: {selectedDevice.vendorId}</Typography>
+                  <Typography variant="body2">Path: {selectedDevice.path}</Typography>
                 </Box>
               )}
             </CardContent>
@@ -209,7 +208,7 @@ function USBDeviceScreen() {
             <Typography variant="h6" gutterBottom>
               Data Transfer
             </Typography>
-            
+
             <Box display="flex" gap={2} mb={2}>
               <TextField
                 fullWidth
@@ -242,9 +241,9 @@ function USBDeviceScreen() {
             <Typography variant="subtitle2" gutterBottom>
               Communication Log:
             </Typography>
-            <Paper sx={{ p: 2, bgcolor: 'grey.100', minHeight: 200 }}>
-              <Typography variant="body2" component="pre" sx={{ whiteSpace: 'pre-wrap' }}>
-                {receivedData || 'No data received yet...'}
+            <Paper sx={{ p: 2, bgcolor: "grey.100", minHeight: 200 }}>
+              <Typography variant="body2" component="pre" sx={{ whiteSpace: "pre-wrap" }}>
+                {receivedData || "No data received yet..."}
               </Typography>
             </Paper>
           </Paper>

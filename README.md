@@ -28,12 +28,15 @@ npm install
 ### Running the Application
 
 #### Development Mode
+
 ```bash
 npm run dev
 ```
+
 This will start both the React development server and Electron app.
 
 #### Production Mode
+
 ```bash
 npm run build
 npm start

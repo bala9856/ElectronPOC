@@ -11,7 +11,12 @@
     "pack": "electron-builder",
     "regression": "npx playwright test --grep @regression",
     "positive": "npx playwright test --grep @positive",
-    "negative": "npx playwright test --grep @negative"
+    "negative": "npx playwright test --grep @negative",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --ext .ts,.js --fix",
+    "format": "prettier --write .",
+    "lint:pages": "eslint tests",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -24,13 +29,21 @@
     "sqlite3": "^5.1.6"
   },
   "devDependencies": {
-    "@playwright/test": "^1.55.0",
+    "@playwright/test": "^1.55.1",
     "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
     "allure-commandline": "^2.34.1",
     "allure-playwright": "^3.3.3",
     "concurrently": "^8.2.2",
-    "electron": "^27.1.3",
+    "electron": "^27.3.11",
     "electron-builder": "^24.6.4",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
+    "prettier": "^3.6.2",
     "react-scripts": "5.0.1",
     "wait-on": "^7.2.0"
   },
@@ -45,6 +58,12 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
     ]
   }
 }
